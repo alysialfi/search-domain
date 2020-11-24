@@ -1,0 +1,72 @@
+.container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 10%;
+}
+.div-input{
+  display: flex;
+  height: 45px;
+  position: absolute;
+}
+h6{
+  margin-top: 10%;
+}
+.input-search{
+  width: 400px;
+  height: 50px;
+  border-radius:25px; 
+  padding: 3px 0 0 16px;
+  box-sizing: border-box;
+  border: 2px solid #dddddd;
+  transition: .1s ease-in;
+}
+.div-search{
+  border-radius:0 25px 25px 0; 
+  background: rgb(56, 129, 240); 
+  position: absolute;
+  z-index: 1;
+  width: 125px;
+  height: 50px;
+  text-align: center;
+  right: 0;
+}
+p{
+  color: white;
+}
+.container-hasil{
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+}
+.pembatas{
+  margin: 0 0 5% 0;
+  border-top: 1px dashed #dddddd;
+  text-align: left;
+  width: 75%;
+}
+.beli{
+  width: 75%;
+  height: 35px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 8px;
+}
+h5{
+  flex: 2;
+  margin: auto;
+}
+.h5-available{
+  color: #4CDB83;
+}
+.btn-buy{
+  background: #4CDB83;
+  border: none;
+  border-radius: 5px; 
+  width: 75px;
+  margin-left: 15%;
+  color: white
+}
+h3{
+  margin: 0;
+}
